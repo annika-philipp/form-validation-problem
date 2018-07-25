@@ -45,7 +45,7 @@ class Form extends React.Component {
     }
   }
 
-  validate(e){
+  validate =(e) => {
     e.preventDefault()
     const {email, password, colour, animals, tiger_type, errors} = this.state
     //check for valid email, regex taken from https://www.w3resource.com/javascript/form/email-validation.php
