@@ -1,9 +1,10 @@
-import React from "react"
+import React from 'react'
+import Form from './Form'
 
 const App = () => {
   return (
-    <div className="container">
-      <h1>It's the obligatory....Hello world</h1>
+    <div>
+      <Form />
     </div>
   )
 }
