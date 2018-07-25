@@ -1,41 +1,34 @@
-# [Form validation problem](https://springload.github.io/form-validation-problem/)
+# Form validation problem
 
-We've created this problem to evaluate how developers tackle a real-world problem. If you've been assigned this problem you should spend around **2 hours** working on it. The last thing we want you to do is toil away for days on end!
+Hi and yes, I've stumbled across this and want to work at [Springload](https://www.springload.co.nz/).
 
-If you've stumbled across this and want to work at [Springload](https://www.springload.co.nz/) feel free to submit it too. We're always on the lookout for skilled developers.
+## To see my solution locally
 
-## Problem definition
-
-Included in this repository is an [index.html](index.html) file that contains a form. You must ensure all of the following rules are met before the form is posted to the (in this case imaginary) server:
-
-* `Email` must be a valid email address.
-* `Password` must be longer than 8 characters.
-* `Colour` must be selected.
-* At least two `Animal`s must be chosen.
-* If `Tiger` is one of the chosen `Animal`s then `Type of tiger` is required to be a non-empty string.
-
-## Other requirements
-
-If the form is submitted and an error occurs, the error element's parent should have a CSS `error` class added to it.
-
-```html
-<p class="error">
-    <label for="field"></label>
-    <input id="field" type="text" value="foo">
-</p>
 ```
+git clone https://github.com/annika-philipp/form-validation-problem
+cd form-validation-problem
+yarn 
+yarn dev
+```
+
+Then go to [http://localhost:3000](http://localhost:3000) and see the form.
+
 
 ## The cherry on the cake
 
-Beyond the problem statement, show us the consideration you have given to some or all of the following:
+* I have documented my code both within the Form component (to explain the logic behind each function) but have also fully tested this app. Well written tests add to my documentation and I've added an additional comment for the email test scenario. 
 
-- Documentation
-- Accessibility
-- Progressive enhancement
-- Browser support
-- Testing
-- Tooling
+* I used git/Github and created meaninfully named branches to keep working on different parts of this app separate
+* I names my commit messages in a meaningful way
+* I added responsiveness to this app to make it mobile friendly
 
-## Submission
 
-Please email us a link to your fork of this repository, or a zip of your solution to `1337h4x0r@springload.co.nz`.
+## Tests
+
+I've used enzyme and jest for my tests and you can run them in your cli like so,
+
+```
+yarn test
+```
+
+<img src="./public/tests.png" alt="formvalidation test suite passing image" width="500px"/>
