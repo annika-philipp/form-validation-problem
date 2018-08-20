@@ -25,14 +25,10 @@ Then go to [http://localhost:3000](http://localhost:3000) and see the form.
 
 ## Tests
 
-I've used enzyme<sup>[9](#myfootnote9)</sup> and jest for my tests and you can run them in your cli like so,
+I've used enzyme and jest for my tests and you can run them in your cli like so,
 
 ```
 yarn test
 ```
 
 <img src="./public/tests.png" alt="formvalidation test suite passing image" width="500px"/>
-
-
-
- <a name="myfootnote9">9</a>: [https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-iii-web-forms](https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-iii-web-forms)
