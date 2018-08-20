@@ -1,6 +1,6 @@
 # Form validation problem
 
-Hi and yes, I've stumbled across this and want to work at [Springload](https://www.springload.co.nz/).
+Hi and yes, I've stumbled across this challenge.
 
 ## To see my solution locally
 
